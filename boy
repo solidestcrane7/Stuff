@@ -38,4 +38,6 @@ local u7 = l__Humanoid__11:LoadAnimation(l__Stand__12.StrongPunch);
 local u8 = 0;
 local l__HumanoidRootPart__9 = l__Character__10.HumanoidRootPart;
 local u10 = 1;
-local l__Disabled__11 = l__Character__10:WaitForChild
+local l__Disabled__11 = l__Character__10:WaitForChild("Disabled");
+function rap()
+end
