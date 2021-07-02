@@ -1,0 +1,43 @@
+local l__ReplicatedStorage__1 = game:GetService("ReplicatedStorage");
+local l__Timestop__2 = l__ReplicatedStorage__1.Timestop;
+local l__PlayerStrongPunch__3 = l__ReplicatedStorage__1.PlayerStrongPunch;
+local l__StarFinger__4 = l__ReplicatedStorage__1.StarFinger;
+local l__Iggy__5 = l__ReplicatedStorage__1.Iggy;
+local l__Jump__6 = l__ReplicatedStorage__1.Jump;
+local l__Yell__7 = l__ReplicatedStorage__1.Yell;
+local l__KeithCorruptedMode__8 = l__ReplicatedStorage__1.KeithCorruptedMode;
+local l__LocalPlayer__9 = game:GetService("Players").LocalPlayer;
+while true do
+	wait();
+	if l__LocalPlayer__9.Character and l__LocalPlayer__9.Character.Humanoid then
+		break;
+	end;
+end;
+local l__Character__10 = l__LocalPlayer__9.Character;
+local l__Humanoid__11 = l__Character__10.Humanoid;
+mouse = l__LocalPlayer__9:GetMouse();
+cam = workspace.CurrentCamera;
+l__ReplicatedStorage__1.Cherry:FireServer();
+local l__Stand__12 = l__Character__10:WaitForChild("Stand");
+l__Character__10.Animate.idle.Animation1.AnimationId = "rbxassetid://6512923306";
+local l__TouchEnabled__13 = game:GetService("UserInputService").TouchEnabled;
+local l__ContextActionService__14 = game:GetService("ContextActionService");
+local v15 = l__Humanoid__11:LoadAnimation(l__Stand__12.Block);
+local v16 = l__Humanoid__11:LoadAnimation(l__Stand__12.Barrage);
+local v17 = l__Humanoid__11:LoadAnimation(l__Stand__12.RightPunch);
+local v18 = l__Humanoid__11:LoadAnimation(l__Stand__12.LeftPunch);
+local v19 = l__Humanoid__11:LoadAnimation(l__Stand__12.Yell);
+local l__Die__20 = l__Stand__12.Vest.Die;
+local u1 = false;
+local u2 = false;
+local l__Rush__3 = l__Stand__12.Vest.Rush;
+local l__Block__4 = l__ReplicatedStorage__1.Block;
+local l__Transparency__5 = l__ReplicatedStorage__1.Transparency;
+local l__Trail__6 = l__ReplicatedStorage__1.Trail;
+local u7 = l__Humanoid__11:LoadAnimation(l__Stand__12.StrongPunch);
+local u8 = 0;
+local l__HumanoidRootPart__9 = l__Character__10.HumanoidRootPart;
+local u10 = 1;
+local l__Disabled__11 = l__Character__10:WaitForChild("Disabled");
+function rap()
+end
